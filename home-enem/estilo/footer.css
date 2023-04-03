@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,500;0,600;1,300;1,500;1,600;1,800&display=swap');
+
+:root{
+    --fonte-titulos:'Pridi', serif;
+    --fonte-txt: 'Roboto', sans-serif;
+    --fonte-botoes: 'Kanit', sans-serif;
+}
+/* footer */
+footer {
+    width: auto;
+    height: 100%;
+    background-color: var(--top-cor);
+    color: aliceblue;
+    font-family: var(--fonte-txt);
+}
+aside > .logo {
+    display: flex;
+}
+aside > .logo > img {
+    width: 20%;
+    border-radius: 0px;
+    margin-left: auto;
+}
+aside > .logo > h2 {
+    font-family: var(--fonte-titulos);
+    font-size: 3em;
+    margin: 0;
+    margin-top: 20px;
+}
+

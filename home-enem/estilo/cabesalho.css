@@ -1,0 +1,68 @@
+/* header */
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,500;0,600;1,300;1,500;1,600;1,800&display=swap');
+
+:root{
+    --fonte-titulos:'Pridi', serif;
+    --fonte-txt: 'Roboto', sans-serif;
+    --fonte-botoes: 'Kanit', sans-serif;
+    --cor0:#61C1D9;
+    --cor1:#067BB0;
+    --cor2:#076B8F;
+    --txt-cor0:#d6bb31;
+    --txt-cor1:#0F244F;
+    --txt-cor2:#0B76DB;
+    --top-cor:#020815;
+}
+header{
+    margin: 0;
+    background-color: var(--top-cor);
+    text-align: center;
+    display: flex;
+}
+
+div#esquerda{
+    width: 24%;
+}
+div#direita{
+    width: 70%;
+    text-align: start;
+    margin-left: 20px;
+}
+
+header > div#esquerda > h1{
+    margin: 0;
+    font-size: 2.5em;
+    font-family: var(--fonte-titulos);
+    color:var(--txt-cor2);
+    text-shadow: 2px 1px 0px rgba(0, 0, 0, 0.541);
+}
+
+nav{
+    background-color: var(--top-cor);
+    padding: 10px;
+    margin-top: 6px;
+    height: 1.39em;
+}
+nav > a{
+    color:white;
+    font-family: var(--fonte-botoes);
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 6px 13px 6px 13px;
+    margin-left: 5px;
+    transition: 0.5s;
+}
+nav > a:hover{
+    font-size: 1.37em;
+    box-shadow: 9px 5px 7px rgba(0, 0, 0, 0.404);
+    border-radius: 5px;
+    background-color: #118C76;
+}
+a#atual{
+    color: var(--txt-cor2);
+}
+a#atual:hover{
+    color: white;
+}

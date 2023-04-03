@@ -1,0 +1,389 @@
+
+/* main */
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,500;0,600;1,300;1,500;1,600;1,800&display=swap');
+
+:root{
+    --cor0:#61C1D9;
+    --cor1:#067BB0;
+    --cor2:#076B8F;
+    --txt-cor0:#d6bb31;
+    --txt-cor1:#0F244F;
+    --txt-cor2:#0B76DB;
+    --top-cor:#020815;
+    --fonte-titulos:'Pridi', serif;
+    --fonte-txt: 'Roboto', sans-serif;
+    --fonte-botoes: 'Kanit', sans-serif;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+
+}
+
+article {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid;
+    border-radius: 20px;
+    font-size: 1em;
+}
+article > h4 {
+    text-align: center;
+    border: 1px solid;
+    height: 40px;
+    padding: 5px;
+}
+main > aside {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+article > aside {
+    display: flex;
+}
+.img {
+    border-radius: 0px 20px 20px 0px;
+    width: 50%;
+    height: 100%;
+}
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+}
+.texto {
+    border-radius: 20px 0px 0px 20px;
+    height: 100%;
+    width: 50%;
+    font-family: var(--fonte-txt);
+}
+/* intro */
+
+.intro {
+    background: url("https://s2.glbimg.com/zeXbQZ8Y5X4BPTKKrNFiTuXVW9o=/0x28:4000x2341/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2022/v/T/OooxGqTYaOZ0gGRGQr9g/gabarito-enem-2022-3.jpg");
+    background-size:cover;
+    border-radius: 20px;
+    transition: ease 1s;
+}
+.intro > aside {
+    width: 97%;
+    height: 94%;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    transition: ease 1s;
+}
+.intro > aside > .text {
+    font-size: 1.1em;
+    font-family: var(--fonte-txt);
+    transition: ease 1s;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+:hover > .text {
+    border-radius: 20px;
+    background: rgb(155, 155, 155);
+    transition: ease 1s;
+}
+
+/* SITES */
+.site {
+    background-color: rgb(255, 255, 97);
+    border: 3px solid rgb(185, 185, 0);
+}
+.site > aside{ 
+    width: 97%;
+    height: 94%;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: white;
+}
+.site > aside > .texto{ 
+    font-size: 18px;
+    margin-top: -20px;
+}
+.site > aside > .texto > h2{ 
+    margin-left: 20px;
+}
+.navsite {
+    margin-top: 2vh;
+    background-color: rgb(255, 255, 255, 0);
+}
+.navsite > a {
+    margin: 0px;
+    border-radius: 5px;
+    background-color: var(--txt-cor0);
+}
+.navsite > a:hover {
+    background-color: var(--txt-cor2);
+}
+
+/* APP */
+.app {
+    background-color: rgb(255, 143, 176);
+    border: 3px solid rgb(190, 65, 102);
+}
+.app > aside{ 
+    width: 97%;
+    height: 94%;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: white;
+}
+.app > aside > .img > img {
+    border-radius: 20px 0px 0px 20px;
+}
+.navapp {
+    margin-top: 6vh;
+    background-color: white;
+}
+.navapp > a {
+    margin: 20px;
+    border-radius: 5px;
+    background-color: var(--txt-cor0);
+}
+.navapp > a:hover {
+    background-color: var(--txt-cor2);
+}
+
+/* Deveres */
+.deveres{
+    background: url(https://blog.even3.com.br/wp-content/uploads/2020/06/dicas-estudar-online.png);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid rgb(0, 48, 207);
+    transition: ease 1s;
+
+}
+
+
+.deveres > aside {
+    width: 97%;
+    height: 94%;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-color: rgb(255, 255, 255, 0.5);
+    transition: 1s;
+}
+.atividades {
+    width: 100%;
+    height: 100%;
+    font-family: var(--fonte-txt);
+    transition: 1s;
+    border-radius: 20px;
+}
+.atividades > h2  {
+    text-align: center;
+    font-family: var(--fonte-titulos);
+}
+.atividades:hover{
+    border-radius: 20px;
+    background: rgb(106, 154, 199);
+    transition: ease 0.5s;
+
+}
+.atividades > .button {
+    padding: 10px;
+    font-family: var(--fonte-botoes);
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-color: var(--txt-cor2);
+    margin-top: 20px;
+    text-align: center;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.button:hover {
+    color: aliceblue;
+    scale: 1.2;
+    box-shadow: 15px 5px 5px rgb(0, 0, 0, 0.5);
+
+}
+
+.aside-bottom {
+    color: var(--txt-cor0);
+    font-family: var(--fonte-titulos);
+    text-shadow: 2px 2px 3px var(--txt-cor1);
+    font-size: 3.5em;
+
+}
+
+
+/* GAAAABEEEEE AGORA SEI DEIXAR O SITE RESPONSIVO GAAABEEE >:)*/
+@media only screen and (max-width:500px){
+    header{
+        flex-direction: column;
+    }
+    div#esquerda{
+        width: 100%;
+    }
+    div#direita{
+        width: auto;
+    }
+    nav{
+        height: auto;
+        width: 92vw;
+        padding: 10px 0px 10px 0px;
+    }
+    nav > a{
+        padding: 6px 0px 6px 0px;
+        margin-left: 5px;
+    }
+
+    aside{
+        flex-direction: column;
+    }
+    article {
+        flex-direction: column;
+        scale: 1;
+    }
+    img {
+        flex-direction: column;
+    }
+    .texto {
+        flex-direction: column;
+        width: 100%;
+    }
+    .img {
+        width: 100%;
+    }
+
+    /* intro - responsivo */
+
+    .intro > aside > .text {
+        flex-direction: column;
+        font-size: 0.8em;
+        background-color: rgb(118, 118, 118, 0.8);
+        width: 100%;
+        height: 100%;
+    }
+    /* site - responsivo */
+
+    .site > aside > .texto {
+        font-size: 0.8em;
+        font-weight: 700;
+        text-align: center;
+    }
+    .site > aside > .texto > .navsite {
+        margin: 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    .site > aside >.texto > .navsite > a {
+        margin: 0;
+        width: 50%;
+        padding: 2%;
+    }
+
+    .site > aside > .img > img {
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    /* Apps - responsividade */
+
+    .app > aside > .texto {
+        font-size: 0.8em;
+        font-weight: 700;
+        text-align: center;
+        margin: 0;
+    }
+    .app > aside > .texto > h2 {
+        text-align: center;
+        margin: 0;
+    }
+    .app > aside > .texto > .navapp {
+        margin: 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255, 0);
+    }
+    .app > aside > .texto > .navapp > a {
+        margin: 0;
+        width: 100%;
+        padding: 5px 25% 5px 25%;
+    }
+
+    a:hover {
+        scale: 1.2;
+    }
+    .app > aside > .img > img {
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    /* Deveres - responsividade */
+
+    .deveres > aside > .atividades {
+        background-color: rgb(68, 102, 214, 0.6);
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .deveres > aside > .atividades > h2 {
+        font-size: 1.2em;
+    }
+    .deveres > aside > .atividades > .button {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1vh;
+    }
+    .button:hover {
+        scale: 1.05;
+    }
+    
+    /* aside-bottom & footer */
+
+    .aside-bottom {
+        font-size: 1.9em;
+    }
+
+
+    footer > aside > .logo > img {
+        margin: 0;
+        margin-left: auto;
+        width: 36%;
+    }
+
+}
+@media only screen and (max-width:780px) {
+    .navsite > a {
+        margin: 0px;
+        padding: 0;
+        border-radius: 5px;
+        background-color: var(--txt-cor0);
+    }
+
+}
